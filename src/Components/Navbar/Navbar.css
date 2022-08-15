@@ -1,0 +1,21 @@
+.navbar {
+    color: white;
+    height: 100px;
+    margin: 0;
+    left: 0;
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    display: flex;
+    flex:row;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
