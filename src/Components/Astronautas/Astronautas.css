@@ -1,0 +1,29 @@
+.astronauts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 100px;
+
+    border-radius: 20px;
+    background-color: #f7f7f7;
+}
+
+.astronauts-title {
+    color: #FA2FB5;
+    font-size: 3rem;
+}
+
+.astronaut-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #d537ff;
+    color: #f7f7f7;
+    padding: 20px;
+    margin: 50px;
+    height: 150px;
+    width: 400px;
+    border-radius: 20px;
+}

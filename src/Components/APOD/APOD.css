@@ -1,0 +1,23 @@
+.apod-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 100px;
+    height: 500px;
+
+    border-radius: 20px;
+    background-color: #f7f7f7;
+}
+
+.apod-title {
+    color: #FA2FB5;
+    font-size: 3rem;
+}
+
+.apod-date .apod-explanation {
+    color: #FA2FB5;
+    font-size: 2rem;
+}

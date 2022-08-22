@@ -1,21 +1,52 @@
 .navbar {
     color: white;
-    height: 100px;
+    height: 150px;
     margin: 0;
     left: 0;
-    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    background: linear-gradient(90deg, #35048e 25%, #ad30db 100%);
     display: flex;
-    flex:row;
+    flex: row;
 }
 
 .nav-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.nav-img {
+    margin-right: 20px;
+    display: flex;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 20%;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: absolute;
+    right: 200px;
 }
 
 .nav-links a {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ad30db;
+    background-color: white;
+    border-radius: 5px;
 }
